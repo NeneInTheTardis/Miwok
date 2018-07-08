@@ -27,4 +27,18 @@
 
     <!-- Category name for the vocabulary words for family members [CHAR LIMIT=20] -->
     <string name="category_family">Family Members</string>
+
+    <!-- Numbers -->
+    <string name="number_one">one</string>
+    <string name="number_two">two</string>
+    <string name="number_three">three</string>
+    <string name="number_four">four</string>
+    <string name="number_five">five</string>
+    <string name="number_six">six</string>
+    <string name="number_seven">seven</string>
+    <string name="number_eight">eight</string>
+    <string name="number_nine">nine</string>
+    <string name="number_ten">ten</string>
+    
+
 </resources>

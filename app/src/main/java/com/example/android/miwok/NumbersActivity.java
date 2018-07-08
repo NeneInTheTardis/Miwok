@@ -2,37 +2,29 @@ package com.example.android.miwok;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
-import android.view.animation.LinearInterpolator;
-import android.widget.ArrayAdapter;
-import android.widget.LinearLayout;
 import android.widget.ListView;
-import android.widget.TextView;
-
-import org.w3c.dom.Text;
 
 import java.util.ArrayList;
-import java.util.List;
 
 public class NumbersActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_numbers);
+        setContentView(R.layout.word_list);
 
         ArrayList<Word> words = new ArrayList<Word>();
 
-        words.add(new Word("one", "lutti"));
-        words.add(new Word("two", "otiiko"));
-        words.add(new Word("three", "tolookosu"));
-        words.add(new Word("four", "oyyisa"));
-        words.add(new Word("five", "massokka"));
-        words.add(new Word("six", "temmokka"));
-        words.add(new Word("seven", "kenekaku"));
-        words.add(new Word("eight", "kawinta"));
-        words.add(new Word("nine", "wo´e"));
-        words.add(new Word("ten", "na´aacha"));
+        words.add(new Word(getString(R.string.number_one), "lutti"));
+        words.add(new Word(getString(R.string.number_two), "otiiko"));
+        words.add(new Word(getString(R.string.number_three), "tolookosu"));
+        words.add(new Word(getString(R.string.number_four), "oyyisa"));
+        words.add(new Word(getString(R.string.number_five), "massokka"));
+        words.add(new Word(getString(R.string.number_six), "temmokka"));
+        words.add(new Word(getString(R.string.number_seven), "kenekaku"));
+        words.add(new Word(getString(R.string.number_eight), "kawinta"));
+        words.add(new Word(getString(R.string.number_nine), "wo´e"));
+        words.add(new Word(getString(R.string.number_ten), "na´aacha"));
 
         WordAdapter itemsAdapter = new WordAdapter(this, words);
         ListView listView = (ListView) findViewById(R.id.list);
