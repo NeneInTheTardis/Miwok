@@ -15,16 +15,14 @@ public class ColorsActivity extends AppCompatActivity {
 
         ArrayList<Word> words = new ArrayList<Word>();
 
-        words.add(new Word("one", "lutti"));
-        words.add(new Word("two", "otiiko"));
-        words.add(new Word("three", "tolookosu"));
-        words.add(new Word("four", "oyyisa"));
-        words.add(new Word("five", "massokka"));
-        words.add(new Word("six", "temmokka"));
-        words.add(new Word("seven", "kenekaku"));
-        words.add(new Word("eight", "kawinta"));
-        words.add(new Word("nine", "wo´e"));
-        words.add(new Word("ten", "na´aacha"));
+        words.add(new Word(getString(R.string.color_red), "weṭeṭṭi"));
+        words.add(new Word(getString(R.string.color_green), "chokokki"));
+        words.add(new Word(getString(R.string.color_brown), "ṭakaakki"));
+        words.add(new Word(getString(R.string.color_gray), "ṭopoppi"));
+        words.add(new Word(getString(R.string.color_black), "kululli"));
+        words.add(new Word(getString(R.string.color_white), "kelelli"));
+        words.add(new Word(getString(R.string.color_dusty_yellow), "ṭopiisә"));
+        words.add(new Word(getString(R.string.color_mustard_yellow), "chiwiiṭә"));
 
         WordAdapter itemsAdapter = new WordAdapter(this, words);
         ListView listView = (ListView) findViewById(R.id.list);

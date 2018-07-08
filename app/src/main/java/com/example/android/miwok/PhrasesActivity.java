@@ -15,16 +15,16 @@ public class PhrasesActivity extends AppCompatActivity {
 
         ArrayList<Word> words = new ArrayList<Word>();
 
-        words.add(new Word(getString(R.string.number_one), "lutti"));
-        words.add(new Word(getString(R.string.number_two), "otiiko"));
-        words.add(new Word(getString(R.string.number_three), "tolookosu"));
-        words.add(new Word(getString(R.string.number_four), "oyyisa"));
-        words.add(new Word(getString(R.string.number_five), "massokka"));
-        words.add(new Word(getString(R.string.number_six), "temmokka"));
-        words.add(new Word(getString(R.string.number_seven), "kenekaku"));
-        words.add(new Word(getString(R.string.number_eight), "kawinta"));
-        words.add(new Word(getString(R.string.number_nine), "wo´e"));
-        words.add(new Word(getString(R.string.number_ten), "na´aacha"));
+        words.add(new Word(getString(R.string.phrases_where_going), "minto wuksus"));
+        words.add(new Word(getString(R.string.phrases_your_name), "tinnә oyaase'nә"));
+        words.add(new Word(getString(R.string.phrases_my_name), "oyaaset..."));
+        words.add(new Word(getString(R.string.phrases_how_feeling), "michәksәs?"));
+        words.add(new Word(getString(R.string.phrases_feeling_good), "kuchi achit"));
+        words.add(new Word(getString(R.string.phrases_are_coming), "әәnәs'aa?"));
+        words.add(new Word(getString(R.string.phrases_yes_coming), "hәә’ әәnәm"));
+        words.add(new Word(getString(R.string.phrases_coming), "әәnәm"));
+        words.add(new Word(getString(R.string.phrases_lets_go), "yoowutis"));
+        words.add(new Word(getString(R.string.phrases_come_here), "әnni'nem"));
 
         WordAdapter itemsAdapter = new WordAdapter(this, words);
         ListView listView = (ListView) findViewById(R.id.list);

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Miwok</string>
+    <string name="category_phrases">Fraser</string>
+    <string name="category_colors">Farver</string>
+    <string name="category_numbers">Tal</string>
+    <string name="category_family">Familie medlemmer</string>
+    <string name="number_one">et</string>
+    <string name="number_two">to</string>
+    <string name="number_three">tre</string>
+    <string name="number_four">fire</string>
+    <string name="number_five">fem</string>
+    <string name="number_six">seks</string>
+    <string name="number_seven">syv</string>
+    <string name="number_eight">otte</string>
+    <string name="number_nine">ni</string>
+    <string name="number_ten">ti</string>
+    <string name="color_red">rød</string>
+    <string name="color_green">grøn</string>
+    <string name="color_brown">brun</string>
+    <string name="color_gray">grå</string>
+    <string name="color_black">sort</string>
+    <string name="color_white">hvid</string>
+    <string name="color_dusty_yellow">støvet gul</string>
+    <string name="color_mustard_yellow">sennepsgul</string>
+    <string name="family_father">far</string>
+    <string name="family_mother">mor</string>
+    <string name="family_son">søn</string>
+    <string name="family_daughter">datter</string>
+    <string name="family_older_brother">storebror</string>
+    <string name="family_younger_brother">lillebror</string>
+    <string name="family_older_sister">storesøster</string>
+    <string name="family_younger_sister">lillesøster</string>
+    <string name="family_grandmother">bedstemor</string>
+    <string name="family_grandfather">bedstefar</string>
+    <string name="phrases_your_name">Hvad er dit navn?</string>
+    <string name="phrases_my_name">Mit navn er...</string>
+    <string name="phrases_yes_coming">Ja, jeg kommer.</string>
+    <string name="phrases_are_coming">Kommer du?</string>
+    <string name="phrases_coming">Jeg kommer.</string>
+    <string name="phrases_lets_go">Lad os gå.</string>
+    <string name="phrases_come_here">Kom her.</string>
+    <string name="phrases_feeling_good">Jeg har det godt.</string>
+    <string name="phrases_how_feeling">Hvordan har du det?</string>
+    <string name="phrases_where_going">Hvor går du hen?</string>
+</resources>

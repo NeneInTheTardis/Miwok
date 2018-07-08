@@ -23,8 +23,8 @@ public class NumbersActivity extends AppCompatActivity {
         words.add(new Word(getString(R.string.number_six), "temmokka"));
         words.add(new Word(getString(R.string.number_seven), "kenekaku"));
         words.add(new Word(getString(R.string.number_eight), "kawinta"));
-        words.add(new Word(getString(R.string.number_nine), "wo´e"));
-        words.add(new Word(getString(R.string.number_ten), "na´aacha"));
+        words.add(new Word(getString(R.string.number_nine), "wo’e"));
+        words.add(new Word(getString(R.string.number_ten), "na’aacha"));
 
         WordAdapter itemsAdapter = new WordAdapter(this, words);
         ListView listView = (ListView) findViewById(R.id.list);
