@@ -4,7 +4,7 @@ public class Word {
     private String mMiwokTranslation;
     private String mDefaultTranslation;
 
-    public Word(String miwokTranslation, String defaultTranslation){
+    public Word(String defaultTranslation, String miwokTranslation){
         this.mMiwokTranslation = miwokTranslation;
         this.mDefaultTranslation = defaultTranslation;
     }
